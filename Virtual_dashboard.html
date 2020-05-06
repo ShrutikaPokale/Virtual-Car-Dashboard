@@ -1,0 +1,16 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Virtual Speedometer</title>
+    <script src="speedometer.js"></script>
+</head>
+<body onload='draw(0);'>
+    <canvas id="speedometer" width="500" height="300">Canvas not available.</canvas>
+  <div>
+        <form id="drawSpeedometer">
+            <input type="text" id="Speed" name="Speed" value="20" maxlength="3" size="50px"/>
+            <input type="button" value="Go" onclick="drawWithInputSpeed();">
+        </form>
+    </div>  
+</body>
+</html>
